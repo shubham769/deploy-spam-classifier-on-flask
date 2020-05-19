@@ -1,7 +1,7 @@
 # Spam-Message-Detector
 A simple Flask API to detect spam or ham using Python and sklearn
 
-This API allows us to utilize the predictive capabilities through HTTP requests.
+This API allows us to utilize predictive capabilities through HTTP requests.
 
 The data is a collection of SMS messages tagged as spam or ham that can be found here:https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
@@ -16,13 +16,13 @@ static/
         style.css
 ```
 
-The sub-directory templates is the directory in which Flask will look for static HTML files for rendering in the web browser, in our case, we have two html files: home.html and result.html .
+The sub-directory templates are the directory in which Flask will look for static HTML files for rendering in the web browser, in our case, we have two html files: home.html and result.html.
 
 The app.py file contains the main code that will be executed by the Python interpreter to run the Flask web application, it included the ML code for classifying SMS messages
 
 Steps:
 ```
-* clone this repo:
+* clone this repo: https://github.com/shubham769/deploy-spam-classifier-on-flask.git
 * download the dataset
 * cd deploy-spam-classifier-with-flask
 * python app.py
